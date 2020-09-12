@@ -36,5 +36,26 @@ namespace CheckAndTransferService.Repository.UnitOfWork
         {
             repositoryContext.Database.RollbackTransaction();
         }
+
+        private bool disposedValue = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposedValue)
+            {
+                if (disposing)
+                {
+                    repositoryContext.Dispose();
+                }
+                this.disposedValue = true;
+            }
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            // TODO: uncomment the following line if the finalizer is overridden above.
+            // GC.SuppressFinalize(this);
+        }
     }
 }

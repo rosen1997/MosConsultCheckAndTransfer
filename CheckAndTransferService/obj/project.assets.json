@@ -6289,11 +6289,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\CheckAndTransferService\\CheckAndTransferService.csproj",
+      "projectUniqueName": "E:\\Projects\\MosConsultCheckAndTransferGIt\\MosConsultCheckAndTransfer\\CheckAndTransferService\\CheckAndTransferService.csproj",
       "projectName": "CheckAndTransferService",
-      "projectPath": "D:\\Projects\\CheckAndTransferService\\CheckAndTransferService.csproj",
+      "projectPath": "E:\\Projects\\MosConsultCheckAndTransferGIt\\MosConsultCheckAndTransfer\\CheckAndTransferService\\CheckAndTransferService.csproj",
       "packagesPath": "C:\\Users\\Rosen\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\CheckAndTransferService\\obj\\",
+      "outputPath": "E:\\Projects\\MosConsultCheckAndTransferGIt\\MosConsultCheckAndTransfer\\CheckAndTransferService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rosen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6348,7 +6348,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

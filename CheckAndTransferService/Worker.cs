@@ -25,6 +25,7 @@ namespace CheckAndTransferService
                 checkAndTransfer.Check(10);
                 await Task.Delay(1000, stoppingToken);
 
+                checkAndTransfer.Dispose();
                 serviceScope.Dispose();
             }
         }

@@ -18,7 +18,7 @@ namespace CheckAndTransferService
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices((hostContext, services) =>
                 {
-                    services.AddDbContext<MosConsultTestDbContext>(options => { options.UseSqlServer("Data Source=DESKTOP-JCRR398\\PROJECTSSERVER;Initial Catalog=MosConsultTestDb;Integrated Security=True;"); });
+                    services.AddDbContext<MosConsultTestDbContext>(options => { options.UseSqlServer("Data Source=DESKTOP-N8DJ8NQ\\PROJECTSSERVER;Initial Catalog=MosConsultTestDb;Integrated Security=True"); });
                     services.AddTransient<IUnitOfWork, UnitOfWork>();
                     services.AddTransient<ICheckAndTransfer, CheckAndTransfer>();
                     services.AddHostedService<Worker>();

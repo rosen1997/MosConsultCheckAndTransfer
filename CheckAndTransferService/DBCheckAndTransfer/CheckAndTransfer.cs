@@ -1,5 +1,6 @@
 ﻿using CheckAndTransferService.Repository.Entities;
 using CheckAndTransferService.Repository.UnitOfWork;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -51,6 +52,29 @@ namespace CheckAndTransferService.DBCheckAndTransfer
             {
                 unitOfWork.RollbackTransaction();
             }
+        }
+
+        private bool disposedValue = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposedValue)
+            {
+                if (disposing)
+                {
+                    unitOfWork.Dispose();
+                }
+
+                disposedValue = true;
+            }
+        }
+
+
+        public void Dispose()
+        {
+            Dispose(true);
+            // TODO: uncomment the following line if the finalizer is overridden above.
+            // GC.SuppressFinalize(this);
         }
     }
 }
