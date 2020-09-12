@@ -144,6 +144,7 @@ E:\Projects\MosConsultCheckAndTransferGIt\MosConsultCheckAndTransfer\CheckAndTra
 E:\Projects\MosConsultCheckAndTransferGIt\MosConsultCheckAndTransfer\CheckAndTransferService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 E:\Projects\MosConsultCheckAndTransferGIt\MosConsultCheckAndTransfer\CheckAndTransferService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\Projects\MosConsultCheckAndTransferGIt\MosConsultCheckAndTransfer\CheckAndTransferService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
+E:\Projects\MosConsultCheckAndTransferGIt\MosConsultCheckAndTransfer\CheckAndTransferService\obj\Debug\netcoreapp3.1\CheckAndTransferService.csprojAssemblyReference.cache
 E:\Projects\MosConsultCheckAndTransferGIt\MosConsultCheckAndTransfer\CheckAndTransferService\obj\Debug\netcoreapp3.1\CheckAndTransferService.AssemblyInfoInputs.cache
 E:\Projects\MosConsultCheckAndTransferGIt\MosConsultCheckAndTransfer\CheckAndTransferService\obj\Debug\netcoreapp3.1\CheckAndTransferService.AssemblyInfo.cs
 E:\Projects\MosConsultCheckAndTransferGIt\MosConsultCheckAndTransfer\CheckAndTransferService\obj\Debug\netcoreapp3.1\CheckAndTransferService.csproj.CopyComplete
